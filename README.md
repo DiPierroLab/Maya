@@ -1,6 +1,6 @@
 # Read Me
 
-This version of the code was written to be used on the Discovery cluster. It's based on the tutorial from PyRosetta's github found on https://rosettacommons.github.io/PyRosetta.notebooks/.
+This version of the code was written to be used on the Discovery cluster. It's based on the tutorial from PyRosetta's github found on https://rosettacommons.github.io/PyRosetta.notebooks/.  
 **Disclaimer: I am not a coder, so any advice/suggestions would be greatly appreciated!** 
 
 Input : .fasta files and fragment .txt files  
