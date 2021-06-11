@@ -26,8 +26,8 @@ for fastafile in fastafiles:
         protein = protein_id.split('_')[0]         # "6Q21".)
         sequence = str(record.seq)
         
-    in_file = '%s%s_in_%s.pdb' %(scratchdir, protein, date) # *Not necessary*
-    cen_file = '%s%s_cen_%s.pdb' %(scratchdir, protein, date) #Not necessary*
+    in_file = '%s%s_in_%s.pdb' %(scratchdir, protein, date)
+    cen_file = '%s%s_cen_%s.pdb' %(scratchdir, protein, date)
     out_file = '%soutput_files/%s_out_%s.pdb' %(directory, protein, date) # Output structures will go into
                                                                           # output_files folder
     # Creating initial pose and structure from sequence 
