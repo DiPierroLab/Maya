@@ -2,8 +2,7 @@
 
 This version of the code was written to be used on the Discovery cluster. It's based on the tutorial from PyRosetta's github found on https://rosettacommons.github.io/PyRosetta.notebooks/.
 
-Input : .fasta files and fragment .txt files
-
+Input : .fasta files and fragment .txt files  
 Output: .pdb files and rmsd.txt files
 
 *Make sure protein IDs are written in all CAPS (otherwise the cluster won't be able to match the fragment files to the right fasta files)
