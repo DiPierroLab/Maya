@@ -16,7 +16,7 @@ The in_file and cen_file files that are created are not necessary for the code. 
 
 
 
-About the code:
+## About the code:
 
 In Subroutine 3, the decision is made using the Metropolis criterion. From the PyRosetta github: 
   "The Metropolis criterion has a probability of accepting a move as P=exp(−ΔG/kT). When ΔE≥0, the Metropolis criterion probability of accepting the move is P=exp(−ΔG/kT). When ΔE<0, the Metropolis criterion probability of accepting the move is P=1. Use kT=1 Rosetta Energy Unit (REU)."
