@@ -3,7 +3,7 @@
 This version of the code was written to be used on the Discovery cluster. It's based on the tutorial from PyRosetta's github found on https://rosettacommons.github.io/PyRosetta.notebooks/.
 **Disclaimer: I am not a coder, so any advice/suggestions would be greatly appreciated!** 
 
-#### The Basics
+### The Basics
 Input : .fasta files and fragment .txt files  (I included example fasta and fragment files in this repo)
 
 Output: .pdb files and rmsd.txt files
