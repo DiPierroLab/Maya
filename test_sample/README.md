@@ -2,3 +2,4 @@ This folder contains three proteins and their respective 3mer and 9mer fragment 
 
 
 The output of running the script goes into the output_files directory. The pdb files show the best structure. There's also a subdirectory called rmsd_files, which contains the root mean square deviation (RMSD) of the best structure aligned to the native structure. 
+*Note about the subdirectory: Originally, I aligned the best structure to the native structure manually. Meaning, I aligned the structures myself using PyMOL. First, I transferred the output_files directory from the cluster to my local laptop. Then, I downloaded all the pdbs from the PDB website. These known protein structures are called native structures. Next, I opened each output pdb and aligned it to the native structure. It took time because I had to align proteins one by one. However, the last section of the script is written to automate this process. I use 
