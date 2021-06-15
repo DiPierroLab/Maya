@@ -3,11 +3,22 @@ This version of the basicfolding.py script was written to be used on the Discove
 *Disclaimer: I am not a coder, so any advice/suggestions would be greatly appreciated!* 
 
 ### The Basics
-**input** : fasta (.fasta) files and fragment (.txt) files
+**input**: fasta (.fasta) files and fragment (.txt) files
+* fasta file: protein-ID.fasta
+* 3mer file: protein-ID_aat000_03_05.200_v1_3.txt
+* 9mer file: protein-ID_aat000_09_05.200_v1_3.txt
 
-**output** : pdb (.pdb) files and rmsd (.txt) files
+**output**: pdb (.pdb) files and rmsd (.txt) files
+* pdb file: protein-ID_out_2021_%m_%d-%H:%M_%p.pdb
+* rmsd file: rmsd__2021_%m_%d-%H:%M_%p.txt
 
-* Pose
+**protein-ID**: 4-digit protein id from PDB website
+
+**best structure/output structure/out structure**: structure created by basicfolding.py
+
+**native structure**: structure as see on PDB website
+
+**Pose**
   * represents a single molecule and is constructed from a PDB file
   * contains various types of info that describe the structure including core components Energies, PDBInfo and Conformation
 
@@ -16,8 +27,6 @@ This version of the basicfolding.py script was written to be used on the Discove
 * Make sure the directory has all the fasta files and fragment files (fragment files can be generated using [robetta](http://robetta.bakerlab.org/fragmentsubmit.jsp)) 
 * The output structures should be in an output directory that has a subdirectory for the RMSDs
 * The in_file and cen_file files that are created are not the final structures that should be analyzed. I made them because I wanted to see the initial input structure, which is essentially a squiggly line, and the centroid model, which looks the same as the final output structure. 
-
-
 
 ### The Details
 About the rmsd_files subdirectory in the output: It doesn't work yet!
