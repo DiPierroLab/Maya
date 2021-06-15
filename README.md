@@ -1,12 +1,12 @@
 # Read Me
+This version of the code was written to be used on the Discovery cluster. It's based on the [tutorial from PyRosetta's github](https://rosettacommons.github.io/PyRosetta.notebooks/)
 
-This version of the code was written to be used on the Discovery cluster. It's based on the tutorial from PyRosetta's github found on https://rosettacommons.github.io/PyRosetta.notebooks/.
 **Disclaimer: I am not a coder, so any advice/suggestions would be greatly appreciated!** 
 
 ### The Basics
-Input : .fasta files and fragment .txt files  (I included example fasta and fragment files in this repo)
+Input : fasta files and fragment .txt files  (I included example fasta and fragment files in this repo)
 
-Output: .pdb files and rmsd.txt files
+Output: pdb files and rmsd.txt files
 
 Pose = the Pose object represents a single molecule and is constructed from a PDB file. it contains various types of info that describe the structure including core components Energies, PDBInfo and Conformation
 
