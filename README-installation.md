@@ -9,5 +9,6 @@ Before installion, you have to get a license in order to down the PyRosetta pack
 Link to license https://els2.comotion.uw.edu/product/pyrosetta
 
 Link to PyRosetta versions and installations instructions http://www.pyrosetta.org/dow 
+
 I used the Mac OS X 10.7 "Lion/MountainLion" (64-bit), Python-3.7.MinSizeRel version and followed the GNU/Linux and Mac OS X instructions under the section 
 "Installation with an environment manager."
