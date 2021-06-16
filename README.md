@@ -1,7 +1,7 @@
 # Read Me
 The goal of my script basicfolding.py is to start with an amino acid sequence and end with a folded protein structure. I used PyRosetta software to write the code and PyMOL to visualize the folded proteins. The script is based on the [tutorial from PyRosetta's github](https://rosettacommons.github.io/PyRosetta.notebooks/). While the majority of this repo is about the script itself, this version of basicfolding.py was written to be used on the Discovery cluster (information about the cluster can be found on Northeastern's [Research Computing website](https://rc-docs.northeastern.edu/en/latest/index.html#)). Because of that, I included a section at the end of this README about the sbatch command and shell script I wrote to submit basicfolding.py as a job to the cluster. 
 
-You'll notice the last chunk of code is commented out. This is because I'm trying to use BioPython's retrieve_pdb_file() to get the native structure of a protein from the PDB website. But retrieve_pdb_file() gets me a .ent file, which is not acceptable argument since the following objects only take pdb files. There's more about this issue in **The Details** section below.
+You'll notice the last chunk of code is commented out. This is because I'm trying to use BioPython's retrieve_pdb_file() to get the native structure of a protein from the PDB website. But retrieve_pdb_file() gets me a .ent file, which is not an acceptable argument since the following objects only take pdb files. There's more about this issue in **The Details** section below.
 
 *Disclaimer: I am not a coder, so any advice/suggestions would be greatly appreciated!* 
 
